@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Driving Quiz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1>📝 Driving Knowledge Quiz</h1>
+</header>
+
+<div class="quiz-box">
+
+  <h3>1. What does a red traffic light indicate?</h3>
+  <input type="radio" name="q1" value="correct"> Stop<br>
+  <input type="radio" name="q1" value="wrong"> Go<br><br>
+
+  <h3>2. Seat belts are mandatory for?</h3>
+  <input type="radio" name="q2" value="wrong"> Driver only<br>
+  <input type="radio" name="q2" value="correct"> All passengers<br><br>
+
+  <h3>3. What is the safe speed limit in city areas?</h3>
+  <input type="radio" name="q3" value="correct"> 40–60 km/h<br>
+  <input type="radio" name="q3" value="wrong"> 90 km/h<br><br>
+
+  <h3>4. When should indicators be used?</h3>
+  <input type="radio" name="q4" value="correct"> While turning or changing lanes<br>
+  <input type="radio" name="q4" value="wrong"> Only at night<br><br>
+
+  <h3>5. What should you do at a pedestrian crossing?</h3>
+  <input type="radio" name="q5" value="correct"> Slow down and stop<br>
+  <input type="radio" name="q5" value="wrong"> Speed up<br><br>
+
+  <button class="btn" onclick="submitQuiz()">Submit Quiz</button>
+
+  <h2 id="result"></h2>
+  <a href="certificate.html" class="btn">Get Certificate</a>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
